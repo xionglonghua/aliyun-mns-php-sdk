@@ -1,0 +1,23 @@
+{
+    "name": "xionglonghua/aliyun-mns-php-sdk",
+    "type": "library",
+    "description": "AliYun MNS SDK.",
+    "keywords": ["aliyun", "mns", "queue", "sms", "sdk"],
+    "homepage": "https://github.com/xionglonghua",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "steve.xiong",
+            "email": "longhuadaxia@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "AliyunMNS\\": "AliyunMNS/"
+        }
+    }
+}
